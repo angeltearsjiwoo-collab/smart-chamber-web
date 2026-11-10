@@ -1,0 +1,876 @@
+{
+ "schema": "chamber-asset-index/v1",
+ "unit": "meter",
+ "bboxClosed": [
+  0.47,
+  0.47,
+  0.8
+ ],
+ "bboxOpen": [
+  0.47,
+  0.47549,
+  1.06753
+ ],
+ "root": "RIG_Root",
+ "notes": {
+  "glassMaterial": "半透明亚克力",
+  "ledMaterial": "LED白色发光",
+  "cap": "RIG_Cap.rotation.x ∈ [-0.6109, 0]（35°）",
+  "door": "RIG_Door.rotation.y ∈ [0, 1.309]（75°）",
+  "axes": "glTF Y-up；pivot/explodeDir 已换算为 glTF 坐标"
+ },
+ "items": [
+  {
+   "name": "EMIT_LED_1",
+   "node": "EMIT_LED_1",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.6545,
+    0.13
+   ],
+   "initialPos": [
+    0.0,
+    0.6545,
+    0.13
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": false,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "EMIT_LED_2",
+   "node": "EMIT_LED_2",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.6545,
+    -0.13
+   ],
+   "initialPos": [
+    0.0,
+    0.6545,
+    -0.13
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": false,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "EXPLODE_01",
+   "node": "EXPLODE_01",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.66275,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    0.66275,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "explode",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "explodeDir": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "explodeDist": 0.12,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "EXPLODE_02",
+   "node": "EXPLODE_02",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    -0.1475,
+    0.035,
+    -0.0
+   ],
+   "initialPos": [
+    -0.1475,
+    0.035,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "explode",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "explodeDir": [
+    -1.0,
+    0.0,
+    -0.0
+   ],
+   "explodeDist": 0.08,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "EXPLODE_03",
+   "node": "EXPLODE_03",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.035,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    0.035,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "explode",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "explodeDir": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "explodeDist": 0.0,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "EXPLODE_04",
+   "node": "EXPLODE_04",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.1475,
+    0.035,
+    -0.0
+   ],
+   "initialPos": [
+    0.1475,
+    0.035,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "explode",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "explodeDir": [
+    1.0,
+    0.0,
+    -0.0
+   ],
+   "explodeDist": 0.24,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "EXPLODE_05",
+   "node": "EXPLODE_05",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.252,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    0.252,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "explode",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "explodeDir": [
+    0.0,
+    -1.0,
+    -0.0
+   ],
+   "explodeDist": 0.1,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "EXPLODE_06",
+   "node": "EXPLODE_06",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.4,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    0.4,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "explode",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "explodeDir": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "explodeDist": 0.0,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "FLUID_Pipe",
+   "node": "FLUID_Pipe",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": false,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "GLASS_Walls",
+   "node": "GLASS_Walls",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": false,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "MOV_Cap",
+   "node": "MOV_Cap",
+   "parent": "RIG_Cap",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    -0.79,
+    0.235
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": false,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "MOV_Door",
+   "node": "MOV_Door",
+   "parent": "RIG_Door",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "initialPos": [
+    -0.214,
+    -0.49,
+    -0.2225
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": false,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "MOV_Fan_L",
+   "node": "MOV_Fan_L",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    -0.11964,
+    0.65529,
+    7e-05
+   ],
+   "initialPos": [
+    -0.11964,
+    0.65529,
+    7e-05
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "spin",
+    "axis": "z",
+    "range": [
+     0.0,
+     0.0
+    ],
+    "speed": 6.0
+   },
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "MOV_Fan_R",
+   "node": "MOV_Fan_R",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.12036,
+    0.65529,
+    7e-05
+   ],
+   "initialPos": [
+    0.12036,
+    0.65529,
+    7e-05
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "spin",
+    "axis": "z",
+    "range": [
+     0.0,
+     0.0
+    ],
+    "speed": 6.0
+   },
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "MOV_Plant",
+   "node": "MOV_Plant",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.0,
+    0.2,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    0.2,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "transform",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "MOV_Servo_L",
+   "node": "MOV_Servo_L",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    -0.14,
+    0.703,
+    -0.17
+   ],
+   "initialPos": [
+    -0.14,
+    0.703,
+    -0.17
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "rotate",
+    "axis": "z",
+    "range": [
+     -0.5236,
+     0.5236
+    ]
+   },
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "MOV_Servo_R",
+   "node": "MOV_Servo_R",
+   "parent": "RIG_Root",
+   "type": "mesh",
+   "pivot": [
+    0.14,
+    0.703,
+    -0.17
+   ],
+   "initialPos": [
+    0.14,
+    0.703,
+    -0.17
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "rotate",
+    "axis": "z",
+    "range": [
+     -0.5236,
+     0.5236
+    ]
+   },
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "RIG_Cap",
+   "node": "RIG_Cap",
+   "parent": "RIG_Root",
+   "type": "empty",
+   "pivot": [
+    0.0,
+    0.79,
+    -0.235
+   ],
+   "initialPos": [
+    0.0,
+    0.79,
+    -0.235
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "rotate",
+    "axis": "x",
+    "range": [
+     -0.6109,
+     0.0
+    ]
+   },
+   "explodeDir": [
+    0.0,
+    1.0,
+    -0.0
+   ],
+   "explodeDist": 0.35,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "RIG_Door",
+   "node": "RIG_Door",
+   "parent": "RIG_Root",
+   "type": "empty",
+   "pivot": [
+    0.214,
+    0.49,
+    0.2225
+   ],
+   "initialPos": [
+    0.214,
+    0.49,
+    0.2225
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "rotate",
+    "axis": "z",
+    "range": [
+     0.0,
+     1.309
+    ]
+   },
+   "explodeDir": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "explodeDist": 0.25,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "RIG_Link_L",
+   "node": "RIG_Link_L",
+   "parent": "RIG_Cap",
+   "type": "mesh",
+   "pivot": [
+    -0.14,
+    0.707,
+    -0.17
+   ],
+   "initialPos": [
+    -0.14,
+    -0.083,
+    0.065
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "passive",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "RIG_Link_R",
+   "node": "RIG_Link_R",
+   "parent": "RIG_Cap",
+   "type": "mesh",
+   "pivot": [
+    0.14,
+    0.707,
+    -0.17
+   ],
+   "initialPos": [
+    0.14,
+    -0.083,
+    0.065
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": true,
+   "anim": {
+    "type": "passive",
+    "axis": "x",
+    "range": [
+     0.0,
+     0.0
+    ]
+   },
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  },
+  {
+   "name": "RIG_Root",
+   "node": "RIG_Root",
+   "parent": null,
+   "type": "empty",
+   "pivot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "initialPos": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "initialRot": [
+    0,
+    0,
+    0
+   ],
+   "initialScale": [
+    1,
+    1,
+    1
+   ],
+   "movable": false,
+   "lod": [
+    "chamber.glb",
+    "chamber_low.glb"
+   ]
+  }
+ ]
+}
